@@ -13,7 +13,7 @@ services:
   db:
     image: postgres:alpine
     environment:
-      - POSTGERS_USER=${DB_USER}
+      - POSTGRES_USER=${DB_USER}
       - POSTGRES_PASSWORD=${DB_PASSWORD}
       - POSTGRES_DB=${DB_NAME}
     ports:
